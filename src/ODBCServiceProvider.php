@@ -6,10 +6,10 @@ use Illuminate\Database\Connection;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class ODBCDriverServiceProvider
+ * Class ODBCServiceProvider
  * @package Coraxster\ODBCDriver
  */
-class ODBCDriverServiceProvider extends ServiceProvider
+class ODBCServiceProvider extends ServiceProvider
 {
 
     /**
@@ -20,7 +20,7 @@ class ODBCDriverServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('db.connector.odbc', function () {
-            return new ODBCDriverConnector;
+            return new ODBCConnector;
         });
 
         $this->app->make('db')->resolverFor('odbc', function ($connection, $database, $prefix, $config) {

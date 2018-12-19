@@ -7,10 +7,10 @@ use Illuminate\Database\Connectors\ConnectorInterface;
 use PDO;
 
 /**
- * Class ODBCDriverConnector
+ * Class ODBCConnector
  * @package Coraxster\ODBCDriver
  */
-class ODBCDriverConnector extends Connector implements ConnectorInterface
+class ODBCConnector extends Connector implements ConnectorInterface
 {
 
     /**

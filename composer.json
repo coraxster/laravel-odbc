@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Coraxster\\ODBCDriver\\ODBCDriverServiceProvider"
+                "Coraxster\\ODBCDriver\\ODBCServiceProvider"
             ]
         }
     }
