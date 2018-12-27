@@ -17,14 +17,14 @@
     },
     "autoload": {
         "psr-0": {
-            "Coraxster\\ODBCDriver": "src/"
+            "Exness\\ODBCDriver": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Coraxster\\ODBCDriver\\ODBCServiceProvider"
+                "Exness\\ODBCDriver\\ODBCServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Coraxster\ODBCDriver;
+namespace Exness\ODBCDriver;
 
 use Illuminate\Database\Connection;
 use Illuminate\Support\ServiceProvider;
